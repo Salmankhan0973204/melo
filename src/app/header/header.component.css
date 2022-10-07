@@ -1,0 +1,22 @@
+.navbar-navs {
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
+nav{
+  background-image: linear-gradient(to right, #00dfb8, #4550f8) !important;
+  height: 100px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  nav{
+
+    height: auto !important;
+  }
+
+}
+.slide{
+  margin-top: 10rem !important;
+}

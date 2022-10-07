@@ -90,12 +90,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css", "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [   "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "./node_modules/jquery/dist/jquery.min.js",
+            "./node_modules/popperjs/dist/popper.min.js",
+            "src/assets/fullpage.scrollHorizontally.min.js",
+            "node_modules/fullpage.js/vendors/scrolloverflow.min.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4ac2007e-99ba-449e-8d2f-9bff5014e327"
   }
 }
