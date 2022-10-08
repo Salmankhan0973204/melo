@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContentUSComponent } from './content-us/content-us.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
+import { FooterComponent } from './footer/footer.component';
+import { IvyCarouselModule } from "angular-responsive-carousel";
+
 
 @NgModule({
   declarations: [
@@ -15,11 +18,15 @@ import { AngularFullpageModule } from '@fullpage/angular-fullpage';
     HeaderComponent,
     HomeComponent,
     AboutUsComponent,
-    ContentUSComponent
+    ContentUSComponent,
+    FooterComponent,
+
   ],
   imports: [
+    IvyCarouselModule,
     BrowserModule,
     AngularFullpageModule,
+
   AppRoutingModule
   ],
   providers: [],

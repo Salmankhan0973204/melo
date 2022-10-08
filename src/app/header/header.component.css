@@ -20,3 +20,7 @@ nav{
 .slide{
   margin-top: 10rem !important;
 }
+
+ul li a{
+  color: #fff;
+}
