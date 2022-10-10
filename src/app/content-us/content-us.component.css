@@ -2,16 +2,21 @@
   box-shadow: 0 0 15px rgb(0 0 0 / 20%);
   padding: 10px;
   border-radius: 10px;
+  background: #eee;
+}
+.atf-contact-area {
+  background-image: url("../../assets/images/background-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h2{
   text-align: center !important;
+  color: #fff !important;
 }
 #getInTouch{
   font-size: 30px;
   margin-bottom: 20px;
-  background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1835b3 !important;
   font-weight: 700;
   text-align: center;
 }
@@ -20,6 +25,15 @@ h2{
   font-weight: 600;
   margin-bottom: 10px;
   color: var(--thm-black);
+}
+.atf-themes-btn{
+  background:#1835b3 !important;
+
+
+}
+.atf-themes-btn :hover{
+  transform: scale(1.5);
+
 }
 .contact .form-control {
   padding: 12px 15px;
@@ -62,16 +76,22 @@ element.style {
     font-weight: 500;
 }
 .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 9px;
-	vertical-align: middle;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  padding-top: 3px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 9px 9px;
+  vertical-align: middle;
+  /* border: 1px white; */
+  border: 1px solid;
+}
+.footer-center i:hover{
+  transform: scale(1.1);
+
 }
 
 .footer-distributed .footer-center{
@@ -118,11 +138,11 @@ element.style {
 }
 a{
   text-decoration: none;
-  color: #33383b;
+  color: #fff;
   cursor: pointer;
 }
 .span{
-  color:#33383b;
+  color:#fff;
   font-size: 14px;
   font-weight: 600;
 }
@@ -189,7 +209,7 @@ a{
 	margin-bottom: 5px;
 }
 .footer-distributed .footer-icons a :hover{
-  background: rgb(115, 115, 233);
+  background: #86c7ed;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -223,7 +243,7 @@ ul li a {
   display: block;
   text-align: center;
   border-radius: 100%;
-  border: 1px solid #636d79;
+
   width: 60px;
   height: 60px;
   font-size: 32px;
@@ -234,14 +254,16 @@ ul li a :hover {
   background: rgb(115, 115, 233);
 
 }
+.atf-section-title2{
+  color:#fff !important
+
+}
 
 .contact1{
   padding: 0px 0 10px 0;
-  background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-weight: 700;
   letter-spacing: 1px;
   font-size: 30px;
   text-align: center;
+  color: #fff;
 }

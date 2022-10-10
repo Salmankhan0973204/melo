@@ -10,6 +10,7 @@ import { ContentUSComponent } from './content-us/content-us.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 import { FooterComponent } from './footer/footer.component';
 import { IvyCarouselModule } from "angular-responsive-carousel";
+import { AppInfoComponent } from './app-info/app-info.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { IvyCarouselModule } from "angular-responsive-carousel";
     AboutUsComponent,
     ContentUSComponent,
     FooterComponent,
+    AppInfoComponent,
 
   ],
   imports: [

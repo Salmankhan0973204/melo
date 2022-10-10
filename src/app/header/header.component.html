@@ -13,14 +13,17 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav ml-auto">
-          <li data-menuanchor="firstPage" class="menu-nav">
-            <a class="nav-link " href="#firstPage">Home</a>
+          <li  class="menu-nav">
+            <a class="nav-link  " [routerLink]="['']" routerLink="active" >Home</a>
           </li>
-          <li data-menuanchor="secondPage" class="menu-nav">
-            <a class="nav-link" href="#secondPage">About Us</a>
+          <li  class="menu-nav">
+            <a class="nav-link  " [routerLink]="['app']" routerLink="active" >App</a>
           </li>
-          <li data-menuanchor="thirdPage" class="menu-nav">
-            <a class="nav-link" href="#thirdPage">Contact Us</a>
+          <li  class="menu-nav">
+            <a class="nav-link"[routerLink]="['about']" routerLink="active"  >About Us</a>
+          </li>
+          <li  class="menu-nav">
+            <a class="nav-link" [routerLink]="['contant']" routerLink="active">Contact Us</a>
           </li>
 
 
@@ -32,21 +35,6 @@
 </header>
 
 
-<button class="atf-scroll-top atf-back-to-top open"  href="#firstPage">
-  <i class="fa fa-angle-up atf-scrollup-icon"></i>
-</button>
 
-<div class="section" id="firstPage">
 
-  <app-home></app-home>
-</div>
 
-<div class="section" id=secondPage>
-  <div class="slide mt-5">
-    <app-about-us></app-about-us>
-  </div>
-</div>
-<div class="section" id=thirdPage>
-  <div class="slide">
-    <app-content-us></app-content-us>
-  </div>
