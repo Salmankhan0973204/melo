@@ -1,0 +1,30 @@
+.atf-service-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 130px;
+  background: var(--thm-f6);
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.atf-single-service {
+  border: none;
+  border-radius: 0px;
+  padding: 30px 15px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  background-color: var(--thm-white);
+  z-index: 1;
+}
+.atf-main-service {
+  margin: 15px 0;
+}
+
+.atf-service-number {
+  position: absolute;
+  font-size: 150px;
+  opacity: 0;
+  font-weight: 500;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%);
+  left: 50%;
+}

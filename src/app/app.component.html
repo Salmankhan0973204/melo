@@ -1,4 +1,84 @@
-<app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+
+<html>
+  <header></header>
+  <body>
+  <button class="atf-scroll-top atf-back-to-top open" data-targets="#" href="#" >
+    <i class="fa fa-angle-up atf-scrollup-icon"></i>
+  </button>
+   <header>
+    <nav
+      class="navbar navbar-navs navbar-expend navbar-expand-md fixed-top"
+      id="menu-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">MovingOn</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarDefault"
+          aria-controls="navbarDefault"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="menu-nav">
+              <a class="nav-link page-scroll active" href="#">Home</a>
+            </li>
+            <li class="menu-nav">
+              <a class="nav-link page-scroll" href="#feature">Features</a>
+            </li>
+            <li class="menu-nav">
+              <a class="nav-link page-scroll" href="#mobile">Mobile App</a>
+            </li>
+            <li class="menu-nav">
+              <a class="nav-link page-scroll" href="#activities"
+                >Activities</a
+              >
+            </li>
+            <li class="menu-nav">
+              <a class="nav-link page-scroll" href="#screenshot"
+                >Screenshots</a
+              >
+            </li>
+            <li class="menu-nav">
+              <a class="nav-link page-scroll" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!--- END CONTAINER -->
+    </nav>
+  </header>
+
+<app-home id=""></app-home>
+<app-features id="#feature"></app-features>
+<app-mobile id="mobile"></app-mobile>
+<app-activities id="activities"></app-activities>
+<app-screen-shot id="#screenshot"></app-screen-shot>
+<app-content-us id="#contact"></app-content-us>
+<div class="atf-footer-boottom text-center mt-4">
+  <div class="row">
+    <div class="col-md-12">
+      <p>&copy;Copyright 2022 - All Right Reserved</p>
+    </div>
+    <!--- END COL -->
+  </div>
+  <!--- END ROW -->
+</div>
+</body>
+</html>
+
 

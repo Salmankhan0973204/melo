@@ -1,5 +1,24 @@
-.atf-hero-area {
-  background-image: url("../../assets/images/background-1.png") !important;
+.atf-round-area {
+  position: absolute;
+  top: 30%;
+  right: 40px;
+  width: 140%;
+  height: 100%;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
+/* .atf-round-area {
+  position: relative;
+  background: linear-gradient(90deg, var(--thm-base), var(--thm-color));
+} */
+.atf-banner-img-one .atf-banner-img-inner img {
+  max-width: unset;
+  width: 744px;
+  margin-top: 100px;
 }
 .atf-one__btn-wrap {
   display: flex;
@@ -37,14 +56,14 @@ p {
   color: #fff;
 }
 .atf-one__btn:hover{
-  transform: scale(1.2)
+ 
 
 }
 
 @media only screen and (max-width: 600px) {
   #home {
-    margin-top: 30px;
-    height: 100vh;
+    padding-top: 80px;
+   height: auto;
   }
   .atf-one__btn {
     margin: 0 0px;

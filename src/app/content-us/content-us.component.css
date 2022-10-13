@@ -5,7 +5,7 @@
   background: #eee;
 }
 .atf-contact-area {
-  background-image: url("../../assets/images/background-2.png");
+
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ h2{
 #getInTouch{
   font-size: 30px;
   margin-bottom: 20px;
-  color: #1835b3 !important;
+  color: linear-gradient(90deg, var(--thm-base), var(--thm-color));
   font-weight: 700;
   text-align: center;
 }
@@ -44,7 +44,7 @@ h2{
   font-size: 14px;
 }
 .atf-contact-btn .atf-themes-btn {
-  color: var(--thm-white);
+
   transform: translate(0px);
   width: 100%;
 }
@@ -70,13 +70,13 @@ element.style {
 element.style {
 }
 .atf-contact-details h4 {
-    color: var(--thm-black);
+
     font-size: 16px;
     line-height: 16px;
     font-weight: 500;
 }
 .footer-center i{
-  color: #ffffff;
+  color: #f08f8f;
   font-size: 25px;
   width: 50px;
   padding-top: 3px;
@@ -100,7 +100,7 @@ element.style {
 
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
-	color: #ffffff;
+
 	font-size: 25px;
 	width: 38px;
 	height: 38px;
@@ -118,7 +118,7 @@ element.style {
 
 .footer-distributed .footer-center p{
 	display: inline-block;
-	color: #ffffff;
+
   font-weight:400;
 	vertical-align: middle;
 	margin:0;
@@ -138,11 +138,11 @@ element.style {
 }
 a{
   text-decoration: none;
-  color: #fff;
+
   cursor: pointer;
 }
 .span{
-  color:#fff;
+
   font-size: 14px;
   font-weight: 600;
 }
@@ -152,7 +152,7 @@ a{
   font-weight:300;
   font-size: 20px;
   left: 0;
-  color: #fff;
+
   display: inline-block;
   padding-right: 5px;
 }
@@ -175,11 +175,11 @@ a{
 	margin: 0;
 }
 .fa:hover{
-  background: rgb(115, 115, 233);
+  scale: (1);
 }
 .footer-distributed .footer-company-about span{
 	display: block;
-	color:  #ffffff;
+
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -189,7 +189,8 @@ a{
 	margin-top: 25px;
 }
 .footer-distributed .footer-icons:hover{
-  background: rgb(115, 115, 233);
+
+  scale: (1);
 }
 
 .footer-distributed .footer-icons a{
@@ -201,7 +202,7 @@ a{
 	border-radius: 2px;
 
 	font-size: 20px;
-	color: #ffffff;
+
 	text-align: center;
 	line-height: 35px;
 
@@ -248,10 +249,10 @@ ul li a {
   height: 60px;
   font-size: 32px;
   padding-top: 0px;
-  color: #537efd;
+  color: #1835b3
 }
 ul li a :hover {
-  background: rgb(115, 115, 233);
+  background: #1835b3
 
 }
 .atf-section-title2{

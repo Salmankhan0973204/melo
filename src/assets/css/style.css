@@ -268,9 +268,10 @@ textarea {
   font-size: 30px;
   line-height: 1.3;
   text-transform: capitalize;
-
-
-
+  font-family: var(--thm-font);
+  background: linear-gradient(90deg, var(--thm-base), var(--thm-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .atf-section-title p {
   padding: 10px 0 0px;
@@ -395,8 +396,7 @@ textarea {
 .atf-one__btn {
   border-radius: 5px;
   color: #fff;
-  /* transition: all 0.5s ease; */
-  transform: scale(1);
+  transition: all 0.5s ease;
   text-align: left;
   width: 180px;
   position: relative;
@@ -413,7 +413,7 @@ textarea {
   content: "";
   position: absolute;
   border-radius: 5px;
-  /* transition: transform 0.5s ease; */
+  transition: transform 0.5s ease;
 }
 .atf-one__btn::after {
   top: 0;
@@ -769,7 +769,7 @@ textarea {
   bottom: 0;
   width: 100%;
   height: 100%;
-
+  background: linear-gradient(90deg, var(--thm-base), var(--thm-color));
   z-index: -1;
 }
 .atf-align-items-details {
@@ -804,7 +804,7 @@ textarea {
 }
 .atf-round-area {
   position: relative;
-
+  background: linear-gradient(90deg, var(--thm-base), var(--thm-color));
 }
 .atf-round-area {
   position: absolute;
@@ -851,15 +851,27 @@ textarea {
 .atf-banner-img-one .atf-banner-img-inner img {
     max-width: unset;
     width: 744px;
-    margin-top: 100px;}
+    margin-top: 100px;
 /*
 * ----------------------------------------------------------------------------------------
 * CLIPE HOME DESIGN
 * ----------------------------------------------------------------------------------------
 */
-
-
-
+.atf-clip-home {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 83%);
+}
+.atf-home-active .home-image-box img {
+  width: auto;
+  height: auto;
+}
+.atf-watch-cart {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  cursor: pointer;
+  margin: 0 0 20px 0;
+}
 .atf-watch-cart {
   content: "";
   position: absolute;
@@ -947,10 +959,6 @@ textarea {
 * WABES HOME DESIGN
 * ----------------------------------------------------------------------------------------
 */
-.carousel-arrow-prev {
-  left: -68px !important;
-
-}
 .atf-waves-home {
   background-position: 50% 0;
   background-repeat: no-repeat;
@@ -1043,10 +1051,10 @@ textarea {
   z-index: -1;
 }
 .atf-main-feature {
-
+  margin: 15px 0;
 }
 .atf-single-feature {
-
+  padding: 20px 20px;
   transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
   transition-duration: 0.4s;
   transition-property: opacity, transform;
@@ -1056,16 +1064,16 @@ textarea {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 .atf-single-feature:hover {
-  /* background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color)); */
-  /* -webkit-transform: scale(1.01) rotate(0deg);
-  transform: scale(1.01) rotate(0deg); */
+  background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color));
+  -webkit-transform: scale(1.01) rotate(0deg);
+  transform: scale(1.01) rotate(0deg);
 }
 .atf-single-feature:hover h3,
 .atf-single-feature:hover p,
 .atf-single-feature2:hover .atf-features-text p,
 .atf-single-feature:hover i {
-  /* color: var(--thm-white);
-  -webkit-text-fill-color: var(--thm-white); */
+  color: var(--thm-white);
+  -webkit-text-fill-color: var(--thm-white);
 }
 .atf-single-feature {
   height: 100%;
@@ -1088,9 +1096,9 @@ textarea {
 }
 .atf-feature-text h3 {
   padding: 0px 0 10px 0;
-
+  background-image: linear-gradient(-90deg, var(--thm-base), var(--thm-color));
   -webkit-background-clip: text;
-
+  -webkit-text-fill-color: transparent;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -1327,7 +1335,7 @@ textarea {
 
 /*
 * ----------------------------------------------------------------------------------------
-* 07. END SERVICE DESIGN
+* 07. END SERVICE DESIGN  
 * ----------------------------------------------------------------------------------------
 */
 /*
@@ -1356,7 +1364,7 @@ textarea {
 */
 /*
 * ----------------------------------------------------------------------------------------
-* 08. START VIDEO DESIGN
+* 08. START VIDEO DESIGN  
 * ----------------------------------------------------------------------------------------
 */
 #watch .atf-section-title h2 {
@@ -1531,7 +1539,7 @@ textarea {
 */
 /*
 * ----------------------------------------------------------------------------------------
-* 09. START SCREENSHOT DESIGN
+* 09. START SCREENSHOT DESIGN  
 * ----------------------------------------------------------------------------------------
 */
 .screenshot .swiper-slide {
@@ -2053,12 +2061,12 @@ textarea {
 }
 /*
 * ----------------------------------------------------------------------------------------
-* 14.END BLOG DESIGN
+* 14.END BLOG DESIGN 
 * ----------------------------------------------------------------------------------------
 */
 /*
 * ----------------------------------------------------------------------------------------
-* 15. START COMPANY BRAND LOGO DESIGN
+* 15. START COMPANY BRAND LOGO DESIGN  
 * ----------------------------------------------------------------------------------------
 */
 .atf-brand-content {
@@ -2090,7 +2098,7 @@ textarea {
 }
 /*
 * ----------------------------------------------------------------------------------------
-* 15.END COMPANY BRAND LOGO DESIGN
+* 15.END COMPANY BRAND LOGO DESIGN 
 * ----------------------------------------------------------------------------------------
 */
 /*
@@ -2109,7 +2117,9 @@ textarea {
 .contact h4 {
   font-size: 30px;
   margin-bottom: 20px;
-  
+  background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 700;
   text-align: center;
 }

@@ -1,9 +1,9 @@
 #feature{
 
   background-size: cover;
-  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+
   border-radius: 10px;
-  height: 92vh;
+
   padding: 0 30px;
 }
 #feature:hover{
@@ -12,24 +12,13 @@
 .atf-single-feature
 {
   height: 100%;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-}
-.atf-single-feature:hover{
-  /* background-image: linear-gradient(90deg, var(--thm-base), var(--thm-color));
-  color: white; */
-}
-
-.atf-feature-content{
-
-  border-radius: 10px;
-  box-shadow: 2px salmon;
 
 }
+
+
+
 .atf-feature-content:hover{
-  transform: scale(1.05);
-  background: white !important;
+
 
 
 }
@@ -59,7 +48,8 @@
 
 @media only screen and (max-width: 600px) {
   img {
-    width: 50px;
+    width: 100%
+    ;
   }
 }
 .atf-feature-area {
